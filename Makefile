@@ -18,3 +18,7 @@ dmtcp_test:
 	./ltdl
 	dmtcp_launch ./dl
 	dmtcp_launch ./ltdl
+
+
+dmtcp_test_noalloc:
+	dmtcp_launch --disable-alloc-plugin ./ltdl
